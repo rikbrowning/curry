@@ -1,0 +1,22 @@
+{
+  "name": "simple-curry",
+  "version": "1.0.0",
+  "description": "Function that allows simple currying of JavaScript functions.",
+  "main": "curry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikbrowning/curry.git"
+  },
+  "keywords": [
+    "currying"
+  ],
+  "author": "Rik Browning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rikbrowning/curry/issues"
+  },
+  "homepage": "https://github.com/rikbrowning/curry#readme"
+}

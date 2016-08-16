@@ -1,0 +1,20 @@
+{
+  "name": "simple-curry",
+  "description": "Function that allows simple currying of JavaScript functions.",
+  "main": "curry.js",
+  "authors": [
+    "Rik Browning"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "currying"
+  ],
+  "homepage": "https://github.com/rikbrowning/curry",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
