@@ -15,8 +15,16 @@
     }
 }(this, function () {
     return function (fn, ...a) {
-        return function (...b) {
-            return fn(...a, ...b);
-        }
+        let numArguments = fn.length;
+        let args = [];
+        let currier = function (...newArgs) {
+            args = args.concat(newArgs);
+            if (args.length === numArguments) {
+                return fn(...args);
+            } else {
+                return currier;
+            }
+        };
+        return currier(...a);
     }
 }));

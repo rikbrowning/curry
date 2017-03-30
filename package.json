@@ -4,7 +4,7 @@
   "description": "Function that allows simple currying of JavaScript functions.",
   "main": "curry.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/rikbrowning/curry/issues"
   },
-  "homepage": "https://github.com/rikbrowning/curry#readme"
+  "homepage": "https://github.com/rikbrowning/curry#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
 }
